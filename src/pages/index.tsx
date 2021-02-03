@@ -107,7 +107,7 @@ console.log("hello")
       </label>
       <button onClick={addTask}>Add Task</button>
 
-      <div className="table_wrapper">
+      <div className="table_wrapperr">
         <h2>My TODO LIST</h2>
         {!loading && data.todos.length === 0 ? <h3>You have no task</h3> :
         <div>
