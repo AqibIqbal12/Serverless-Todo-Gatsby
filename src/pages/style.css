@@ -1,0 +1,65 @@
+.container{
+    background-color: azure;
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 20px #606060;
+    padding: 20px 10px;
+}
+
+.table_wrapper{
+    background-color: bisque;
+    margin-top: 20px;
+    /* width: 700px; */
+     
+}
+
+.container > .table_wrapper > h2{
+    border-width: 2px;
+    border-style: solid;
+    width: 596px;
+    margin: 0 auto 0 auto;
+    
+}
+
+table {
+    
+    border-collapse: collapse;
+    /* background-color: coral; */
+    margin: 0 auto;
+    width: 600px;
+}
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width: 19px;
+    height:19px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px){
+    table { 
+        width: 400px;
+    }
+    .container > .table_wrapper > h2{
+        width: 497px;
+        
+    }
+}
+@media screen and (max-width: 700px){
+    .table_wrapper > div{
+        /* width: 200px; */
+        overflow-x: auto;
+         
+    }
+
+    .container > .table_wrapper > h2{
+        width: auto;
+        
+    }
+}
+
